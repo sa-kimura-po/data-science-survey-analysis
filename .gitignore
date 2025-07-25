@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyTorch
+*.pth
+*.pt
+
+# Transformers cache
+transformers_cache/
+.cache/
+
+# Streamlit
+.streamlit/
+
+# Model files (避けるため大きなモデルファイル)
+*.bin
+*.safetensors
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Analysis output
+*_analysis.png
+*_results.csv
